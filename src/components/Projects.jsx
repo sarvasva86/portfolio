@@ -33,7 +33,7 @@ function Projects() {
         {projects.map((p) => (
           <div
             key={p.title}
-            className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md transition"
+            className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-lg transition duration-300"
           >
             <h3 className="text-2xl font-semibold mb-2">
               {p.title}

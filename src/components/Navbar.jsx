@@ -5,7 +5,7 @@ function Navbar() {
         Suchita Patel
       </h1>
 
-      <div className="flex gap-6 text-gray-600">
+      <div className="flex gap-4 text-sm md:text-base flex-wrap">
         <a href="#about" className="hover:text-black">About</a>
         <a href="#skills" className="hover:text-black">Skills</a>
         <a href="#projects" className="hover:text-black">Projects</a>

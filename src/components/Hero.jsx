@@ -31,6 +31,14 @@ function Hero() {
           >
             GitHub
           </a>
+
+          <a
+  href="/resume.pdf"
+  download
+  className="border px-6 py-3 rounded-lg hover:bg-gray-100"
+>
+  Download Resume
+</a>
         </div>
       </section>
     );
